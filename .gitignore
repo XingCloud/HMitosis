@@ -1,0 +1,11 @@
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+~    
+*~
+.#*
+#*
+_site/*
