@@ -19,8 +19,8 @@ title: Geting Started
     create post:
     rake page name="hbase/hfile-inside.md" title="HFile的格式？"
     
-    edit post/page:
-    ...
+    edit post/page with your favorite editor:
+    vim hbase/hfile-inside.md
 
     deploy to local to preview:
     jekyll --server 3000
