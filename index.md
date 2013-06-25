@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Geting Start
+title: Geting Started
 ---
 {% include JB/setup %}
 
@@ -9,7 +9,7 @@ title: Geting Start
     [rvm install](http://ruby-china.org/wiki/rvm-guide)
     gem install jekyll    
 
-## usage
+## workflow
     git clone git@github.com:XingCloud/HMitosis.git
     git checkout -b gh-pages origin/gh-pages
     
@@ -17,9 +17,15 @@ title: Geting Start
     rake post title="Hello World"
 
     create post:
-    rake page name="HMitosis/hbase-locks.md"
+    rake page name="hbase/hfile-inside.md" [title="HFile的格式？"]
     
-    local deploy:
+    edit:
+    ...
+
+    deploy on local to preview:
     jekyll --server 3000
     http://localhost:3000/
 
+    deploy to github:
+    git commit -am "add hfile page"
+    git push
